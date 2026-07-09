@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>VideoRecorder</title>
+	<title>StudioCast PRO — Screen & Audio Recorder</title>
 </svelte:head>
 
 {@render children()}

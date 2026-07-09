@@ -1,18 +1,23 @@
 {
 	"id": "/?source=pwa_screen_recorder",
-	"name": "Screen Recorder",
-	"short_name": "Screen Recorder",
-	"description": "Simple Screen Recorder made with SvelteKit and PWA technology",
+	"name": "StudioCast PRO — Screen Recorder",
+	"short_name": "StudioCast PRO",
+	"description": "Client-Side Screen & Audio Recording Studio made with Svelte 5 Runes and PWA technology",
 	"start_url": "/",
 	"scope": "/",
 	"display": "standalone",
 	"orientation": "any",
 	"dir": "ltr",
 	"lang": "en",
-	"theme_color": "#000000",
-	"background_color": "#ffffff",
+	"theme_color": "#09090b",
+	"background_color": "#09090b",
 	"prefer_related_applications": false,
 	"icons": [
+		{
+			"src": "apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
 		{
 			"src": "apple-touch-icon-180x180.png",
 			"sizes": "180x180",

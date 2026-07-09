@@ -1,4 +1,5 @@
 export async function detectSWUpdate() {
+	if (typeof window === 'undefined' || !('serviceWorker' in navigator)) return;
 	const registration = await navigator.serviceWorker.ready;
 
 	registration.addEventListener('updatefound', () => {
